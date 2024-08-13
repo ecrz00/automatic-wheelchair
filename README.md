@@ -5,7 +5,7 @@ In this school project I designed an automatic vehicle. The key features of the 
 * A HC-SR04 sensor that automatically stops the vehicle when an obstacle is detected.
 * A buzzer to alert when an obstacle is detected.
 * A bluetooth module that receives commands from a mobil application.
-* A mobile application developed in [App Inventor]{ https://appinventor.mit.edu/ } that allows you to controll the vehicle by voice or by pressing buttons.
+* A mobile application developed in [App Inventor](https://appinventor.mit.edu/) that allows you to controll the vehicle by voice or by pressing buttons.
 
 The project utilizes almost every peripheral available on the EK-TM4C1294XL board, and the code was developed at a low level using C.
 
