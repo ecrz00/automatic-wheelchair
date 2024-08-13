@@ -1,11 +1,11 @@
 # Project Overview
 In this school project I designed an automatic vehicle. The key features of the project are:
-* A joystick to control the direction and speed of movement
-* An OLED display that shows the direcction in which the vehicle is moving and provides alerts
-* A HC-SR04 sensor that automatically stops the vehicle when an obstacle is detected
-* A buzzer to alert when an obstacle is detected
-* A bluetooth module that receives commands from a mobil application
-* A mobile application developed in [App Inventor]{https://appinventor.mit.edu/} that allows you to controll the vehicle by voice or by pressing buttons
+* A joystick to control the direction and speed of movement.
+* An OLED display that shows the direcction in which the vehicle is moving and provides alerts.
+* A HC-SR04 sensor that automatically stops the vehicle when an obstacle is detected.
+* A buzzer to alert when an obstacle is detected.
+* A bluetooth module that receives commands from a mobil application.
+* A mobile application developed in [App Inventor]{ https://appinventor.mit.edu/ } that allows you to controll the vehicle by voice or by pressing buttons.
 
 The project utilizes almost every peripheral available on the EK-TM4C1294XL board, and the code was developed at a low level using C.
 
@@ -15,8 +15,9 @@ The main function initializes the UART, ADC, I2C, SPI, and PWM, and configures a
 ## Interrupt tasks:
 
 The project uses two interrupts:
-*Port C5 on the rising edge: This interrupt is associated with the ECHO pin of the HC-SR04.
-*FIFO interrupt on UART: This interrupt is associated with the commands received from the mobile app.
+
+* Port C5 on the rising edge: This interrupt is associated with the ECHO pin of the HC-SR04.
+* FIFO interrupt on UART: This interrupt is associated with the commands received from the mobile app.
 
 In this case, the Port C5 interrupt has the highest priority because it stops the vehicle when necessary.
 
