@@ -9,8 +9,7 @@ In this school project I designed an automatic vehicle. The key features of the 
 
 The project utilizes almost every peripheral available on the [EK-TM4C1294XL](https://www.ti.com/tool/EK-TM4C1294XL) board, and the code was developed at a low level using C.
 
-<img width="752" alt="Captura de pantalla 2024-08-14 a la(s) 9 51 05" src="https://github.com/user-attachments/assets/9ffe438a-6c43-4047-b7b2-ebfb665c486f">
-
+<img width="701" alt="Captura de pantalla 2024-08-14 a la(s) 10 48 24" src="https://github.com/user-attachments/assets/bc432178-ec30-49c9-97ff-f54a7b1baaed">
 
 ## Main task
 The main function initializes the UART, ADC, I2C, SPI, and PWM, and configures all necessary ports. It then enters an infinite loop that reads ADC data and controls the vehicle's movement.
